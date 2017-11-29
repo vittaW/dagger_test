@@ -1,0 +1,26 @@
+---基本用法，三者连接---------------------------------------------------------------------------------
+@Inject 构造上提供实例 rose
+        构造上提供依赖 pot
+        成员上注入依赖 pot
+
+@Component void inject(MainActivity mainActivity)  连接MainActivity（的成员）-------------------------------------------连接activity，依赖使用
+           Object getObj();   一般为其他Component 提供依赖，一个Component 可以依赖其他Component
+
+
+@Module 注入Flower 接口（@Inject 不能生产接口对象，不能new！！！）
+@Providers   提供Flower 接口（依赖）
+Flower provideFlower(){
+    return new Rose();
+}
+**  注意 ： 要在Component 中制定module  ** -----------  @Component(module = {FlowerModule.class})  ------------------------连接module，依赖创建
+
+
+---多态 ，用于标识接口的注解---------------------------------------------------------------------------
+@Named("interfaceChild") 接口有多个实现类，返回值都是接口；用named 表明是哪一个实现类；
+@Providers
+
+@Qualifier  和named 作用相同，不用写字符串，比named 不容易写错，自定义不同实现类的注解。
+
+
+
+
