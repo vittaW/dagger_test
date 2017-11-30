@@ -1,6 +1,4 @@
-package com.vitta.daggertest;
-
-import javax.inject.Named;
+package com.vitta.daggertest.zexa;
 
 import dagger.Module;
 import dagger.Provides;

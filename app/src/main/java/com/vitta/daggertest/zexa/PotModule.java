@@ -1,4 +1,4 @@
-package com.vitta.daggertest;
+package com.vitta.daggertest.zexa;
 
 import dagger.Module;
 import dagger.Provides;

@@ -1,6 +1,4 @@
-package com.vitta.daggertest;
-
-import javax.inject.Inject;
+package com.vitta.daggertest.zexa;
 
 /**
  * 作者：王文婷 邮箱：WVitta@126.com

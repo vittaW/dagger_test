@@ -23,4 +23,23 @@ Flower provideFlower(){
 
 
 
+复习：@Inject @Component @Module @Providers @Named @Qualifier
+
+
+dependence 是把其他Component 作为内部类使用的
+
+
+@Scope  用来管理依赖的生命周期的，让某个依赖在某个Component中保持局部单例（唯一）；我们通过自定义不同scope注解来标记这个依赖的生命周期
+@Singleton 是@scope的默认实现。一般用在App里初始化，在整个项目中单例
+@ActivityScope 标明ActivityComponent 生命周期与Activity的生命周期相同
+@FragmentScope 标明FragmentComponent 生命周期与Fragmenr 的生命周期相同
+@xxxScope
+
+
+感觉都对时，clean 一下就好了
+
+is bound multy times ======= 多个返回值类型，应该去定义@Qualifier 区分（多态 + 相同返回值类型）
+
+
+
 

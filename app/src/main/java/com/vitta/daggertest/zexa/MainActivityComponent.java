@@ -1,4 +1,4 @@
-package com.vitta.daggertest;
+package com.vitta.daggertest.zexa;
 
 import dagger.Component;
 
@@ -8,7 +8,7 @@ import dagger.Component;
  * 描述：MainActivityComponent
  */
 
-@Component(modules = {FlowerModule.class})
+@Component(dependencies = PotComponent.class)
 public interface MainActivityComponent {
 
     void inject(MainActivity mainActivity);
