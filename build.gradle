@@ -36,23 +36,27 @@ ext {
 
     // App dependencies
     supportLibraryVersion = '26.1.0'
-    gsonVersion = '2.8.0'
-    calligraphyVersion = '2.2.0'
-    glideVersion = '3.7.0'
+//    calligraphyVersion = '2.2.0'
 
-    rx2FastAndroidNetworking = '1.0.0'
+
+    //net
+    okhttpVersion = '3.9.0'
+    retrofitVersion = '2.2.0'
+    glideVersion = '4.3.1'
+    gsonVersion = '2.8.0'
+    jsoupVersion = '1.11.2'
 
     dagger2Version = '2.9'
     rxjava2Version = '2.0.6'
     rxandroidVersion = '2.0.1'
     butterKnifeVersion = '8.6.0'
     greenDaoVersion = '3.2.2'
-    placeholderviewVersion = '0.6.1'
-    debugDBVersion = '1.0.0'
-    timberVersion = '4.5.1'
+//    placeholderviewVersion = '0.6.1'
+//    debugDBVersion = '1.0.0'
+//    timberVersion = '4.5.1'
 
     //Test dependencies
     junitVersion = '4.12'
     espressoVersion = '3.0.1'
-    mockitoVersion = '2.7.1'
+//    mockitoVersion = '2.7.1'
 }
